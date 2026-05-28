@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Landing page em formato de banner digital interativo para apresentação de projetos acadêmicos." />
+  <title>Geraforce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#inicio" class="logo">Geraforce</a>
+    <nav class="menu" id="menu">
+      <a href="#problema">Problema</a>
+      <a href="#solucao">Solução</a>
+      <a href="#demo">Demonstração</a>
+      <a href="#equipe">Equipe</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content reveal">
+        <span class="tag">Banner Digital Interativo • GitHub Pages</span>
+        <h1>Geraforce</h1>
+        <p class="subtitle">Sistema web para monitoramento e controle do consumo de energia elétrica.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#demo">Ver Demonstração</a>
+          <a class="btn secondary" href="https://github.com/UPX-Geraforce/UPX3" target="_blank" rel="noopener">Acessar GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="mockup-window">
+          <div class="mockup-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-title">Preview da Solução</div>
+            <div class="mockup-screen screenshot-preview">
+              <img src="img/dashboard-geraforce.png" alt="Dashboard do sistema Geraforce" class="preview-img" />
+            </div>
+            <p>Dashboard do sistema Geraforce.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics reveal" aria-label="Indicadores do projeto">
+      <article>
+        <strong>01</strong>
+        <span>Problema real investigado</span>
+      </article>
+      <article>
+        <strong>03+</strong>
+        <span>Funcionalidades principais</span>
+      </article>
+      <article>
+        <strong>100%</strong>
+        <span>Publicado no GitHub Pages</span>
+      </article>
+      <article>
+        <strong>QR</strong>
+        <span>Acesso rápido na apresentação</span>
+      </article>
+    </section>
+
+    <section class="section split" id="problema">
+      <div class="section-text reveal">
+        <span class="section-label">Contexto</span>
+        <h2>Problema identificado</h2>
+        <p>O aumento constante das tarifas e a falta de controle detalhado geram elevados desperdícios de energia em residências e pequenos negócios com o consumo inadequado de equipamentos elétricos.</p>
+        <p> (ANEEL, 2024)</p>
+      </div>
+      <div class="highlight-box reveal">
+        <h3>Exemplo de dor</h3>
+        <p>A ausência de ferramentas para monitoramento do consumo de energia dificulta a identificação de desperdícios e reduz a capacidade de planejamento financeiro dos usuários. </p>
+      </div>
+    </section>
+
+    <section class="section" id="solucao">
+      <div class="section-heading reveal">
+        <span class="section-label">Proposta</span>
+        <h2>Solução desenvolvida</h2>
+
+      </div>
+
+      <div class="cards-grid">
+        <article class="card reveal">
+          <div class="icon">💡</div>
+          <h3>Proposta de Valor</h3>
+          <p>Transformar a gestão de energia de lojistas em economia real.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">⚙️</div>
+          <h3>Funcionalidade Principal</h3>
+          <p>Cadastro simplificado de aparelhos (potência/tempo de uso) e calcula o gasto com base nas tarifas regionais, gerando gráficos instantâneos, rankings de consumo e barras de progresso de metas.</p>
+        </article>
+        <article class="card reveal">
+          <div class="icon">📱</div>
+          <h3>Experiência do Usuário</h3>
+          <p>Interface limpa, intuitiva e sem curva de aprendizado. Conta com dicas visuais que facilitam o preenchimento de dados técnicos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark" id="tecnologias">
+      <div class="section-heading reveal">
+        <span class="section-label">Implementação</span>
+        <h2>Tecnologias utilizadas</h2>
+      </div>
+      <div class="tech-list reveal">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>MySql</span>
+        <span>Visual Studio Code</span>
+        <span>Trello</span>
+        <span>GitHub Pages</span>
+        <span>Figma</span>  
+        <span>Word</span>  
+      </div>
+    </section>
+
+    <section class="section split" id="arquitetura">
+      <div class="section-text reveal">
+        <span class="section-label">Arquitetura</span>
+        <h2>Como a solução funciona</h2>
+        <p>O Geraforce é uma aplicação web estruturada em camadas que integra front-end, back-end e banco de dados para processar informações de consumo energético em tempo real. O fluxo de dados opera de forma dinâmica: o usuário insere as informações técnicas de seus aparelhos na interface, o servidor processa os cálculos e armazena os dados de forma segura, atualizando os painéis visuais do usuário instantaneamente.</p>
+      </div>
+      <div class="diagram reveal">
+        <div>Usuário</div>
+        <span>→</span>
+        <div>Interface Web</div>
+        <span>→</span>
+        <div>API / Backend</div>
+        <span>→</span>
+        <div>Banco de Dados</div>
+      </div>
+    </section>
+
+    <section class="section" id="demo">
+      <div class="section-heading reveal">
+        <span class="section-label">Demonstração</span>
+        <h2>Apresentação do MVP</h2>
+        <p>Use esta seção para colocar vídeo, GIF, screenshots, link do Figma ou acesso ao sistema funcional.</p>
+      </div>
+      <div class="demo-box reveal">
+        <div class="play-button">▶</div>
+        <h3>Área de Demonstração</h3>
+        <p>Substitua por um vídeo incorporado do YouTube, uma imagem do protótipo ou um GIF do sistema em funcionamento.</p>
+        <a class="btn primary" href="https://6a1781a08e189193620a56ae--incredible-hamster-e20c17.netlify.app/" target="_blank" rel="noopener">Ver Protótipo</a>
+      </div>
+    </section>
+
+    <section class="section split" id="ods">
+      <div class="section-text reveal">
+        <span class="section-label">Impacto</span>
+        <h2>Resultados esperados e ODS</h2>
+        <p>Desenvolver um sistema web para monitoramento e controle do consumo de energia, auxiliando usuários na redução de desperdícios e no gerenciamento eficiente de gastos energéticos. O projeto está alinhado ao ODS 7 – Energia Acessível e Limpa, incentivando o uso consciente e contribuindo com práticas sustentáveis no consumo energético.</p>
+      </div>
+      <div class="ods-card reveal">
+        <strong>ODS 7</strong>
+        <p>Energia Acessível e Limpa</p>
+      </div>
+    </section>
+
+    <section class="section" id="equipe">
+      <div class="section-heading reveal">
+        <span class="section-label">Equipe</span>
+        <h2>Integrantes do projeto</h2>
+        <p>Apresente os membros da equipe e suas responsabilidades.</p>
+      </div>
+      <div class="team-grid">
+        <article class="team-card reveal">
+          <div class="avatar">J</div>
+          <h3>Josué Carvalho</h3>
+          <p>Front-End, Testes, Product Owner</p>
+        </article>
+        <article class="team-card reveal">
+          <div class="avatar">L</div>
+          <h3>Luis Filipe</h3>
+          <p>Documentador e Back-End</p>
+        </article>
+        <article class="team-card reveal">
+          <div class="avatar">C</div>
+          <h3>Caio Sbardelotto</h3>
+          <p>Documentador e Back-End</p>
+        </article>
+        <article class="team-card reveal">
+          <div class="avatar">C</div>
+          <h3>Gabriel Henrique</h3>
+          <p>Front-End e Testes</p>
+        </article>
+        <article class="team-card reveal">
+          <div class="avatar">C</div>
+          <h3>João Pedro</h3>
+          <p>Fullstack</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta-section" id="acesso">
+      <div class="cta-content reveal">
+        <h2>Acesse o projeto durante a apresentação</h2>
+        <p>Use o QR Code para abrir esta landing page no celular, acessar o repositório ou testar o protótipo.</p>
+      </div>
+      <div class="qr-card reveal">
+        <img id="qrCode" alt="QR Code da landing page" />
+        <small>QR Code gerado automaticamente com o link desta página.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>UniFacens • Usina de Projetos Expeimentais III • Semestre/Ano</p>
+    <p>Desenvolvido pela equipe do projeto.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
